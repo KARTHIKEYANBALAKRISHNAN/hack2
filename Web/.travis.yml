@@ -1,3 +1,4 @@
 ﻿language: c
+sudo: required
 script:
 	- xbuild d2v.sln
