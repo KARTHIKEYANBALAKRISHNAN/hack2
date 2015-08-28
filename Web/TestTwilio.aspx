@@ -9,7 +9,15 @@
 <body>
     <form id="form1" runat="server">
     <div id="smsid" runat="server">
-    
+    </div>
+    <label for="email">Enter email id</label>&nbsp;
+        <asp:TextBox ID="TextBox1" runat="server"></asp:TextBox>
+    <label for="pass">
+        <br />
+        Enter password</label>&nbsp;
+        <asp:TextBox ID="TextBox2" runat="server"></asp:TextBox>
+&nbsp;<div id="emails" runat="server">
+            <asp:Button ID="Button1" runat="server" OnClick="Button1_Click" Text="Button" />
     </div>
     </form>
 </body>
