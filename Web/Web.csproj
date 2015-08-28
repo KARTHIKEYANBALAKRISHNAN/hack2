@@ -60,19 +60,22 @@
     <Reference Include="System.Web.Services" />
     <Reference Include="System.EnterpriseServices" />
     <Reference Include="Twilio.Api, Version=3.4.1.0, Culture=neutral, processorArchitecture=MSIL">
-      <HintPath>..\packages\Twilio.4.0.51\lib\3.5\Twilio.Api.dll</HintPath>
-      <Private>True</Private>
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>libs\Twilio.Api.dll</HintPath>
     </Reference>
     <Reference Include="Twilio.Mvc, Version=3.4.1.0, Culture=neutral, processorArchitecture=MSIL">
-      <HintPath>..\packages\Twilio.Mvc.3.1.15\lib\3.5\Twilio.Mvc.dll</HintPath>
-      <Private>True</Private>
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>libs\Twilio.Mvc.dll</HintPath>
     </Reference>
     <Reference Include="Twilio.Twiml, Version=3.4.1.0, Culture=neutral, processorArchitecture=MSIL">
-      <HintPath>..\packages\Twilio.TwiML.3.3.6\lib\3.5\Twilio.Twiml.dll</HintPath>
-      <Private>True</Private>
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>libs\Twilio.Twiml.dll</HintPath>
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="libs\Twilio.Api.dll" />
+    <Content Include="libs\Twilio.Mvc.dll" />
+    <Content Include="libs\Twilio.Twiml.dll" />
     <Content Include="TestTwilio.aspx" />
     <Content Include="Web.config" />
   </ItemGroup>
