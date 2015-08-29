@@ -126,12 +126,20 @@
     <Content Include="libs\Twilio.Api.dll" />
     <Content Include="libs\Twilio.Mvc.dll" />
     <Content Include="libs\Twilio.Twiml.dll" />
+    <Content Include="Subscribe.aspx" />
     <Content Include="TestTwilio.aspx" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
     <Compile Include="MailRepository.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Subscribe.aspx.cs">
+      <DependentUpon>Subscribe.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Subscribe.aspx.designer.cs">
+      <DependentUpon>Subscribe.aspx</DependentUpon>
+    </Compile>
     <Compile Include="TestTwilio.aspx.cs">
       <DependentUpon>TestTwilio.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
