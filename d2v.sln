@@ -10,6 +10,8 @@ EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{3059C41D-CD58-4FDA-9B14-FBA237A0F38E}"
 	ProjectSection(SolutionItems) = preProject
 		MailRepository.cs = MailRepository.cs
+		manifest.yml = manifest.yml
+		travis.yml = travis.yml
 	EndProjectSection
 EndProject
 Global

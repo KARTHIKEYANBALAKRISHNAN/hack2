@@ -1,0 +1,9 @@
+---
+# this manifest deploys two applications
+# apps are in flame and spark directories
+# flame and spark are in fireplace
+# cf push should be run from fireplace
+applications:
+- name: d2v  
+  instances: 1
+  buildpack: https://github.com/cloudfoundry-incubator/cloudfoundry-buildpack-clr.git

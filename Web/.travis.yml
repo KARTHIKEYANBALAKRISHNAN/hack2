@@ -1,4 +1,0 @@
-﻿language: c
-sudo: false
-script:
-	- xbuild d2v.sln

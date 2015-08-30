@@ -1,4 +1,13 @@
-﻿language: c
 sudo: required
+language: csharp
+solution: d2v.sln
 script:
-	- xbuild d2v.sln
+  - xbuild d2v.sln
+deploy:   
+   edge: true
+   provider: cloudfoundry
+   username: muhammed.hussain@verizon.com
+   password: Muhammed1!
+   api: api.run.pivotal.io
+   organization: VZeCommerce
+   space: development
