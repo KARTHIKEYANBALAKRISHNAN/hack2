@@ -6,8 +6,8 @@ script:
 deploy:   
    edge: true
    provider: cloudfoundry
-   username: muhammed.hussain@verizon.com
-   password: Muhammed1!
-   api: api.run.pivotal.io
-   organization: VZeCommerce
+   username: minakshi.aggarwal@verizon.com
+   password: ironfoundry@123
+   api: api.beta.ironfoundry.me
+   organization: hackersmkv
    space: development
